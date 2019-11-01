@@ -17,5 +17,9 @@ namespace WIMF
         {
             InitializeComponent();
         }
+
+        public void TestMethod() {
+        //This is a dummy!
+        }
     }
 }
