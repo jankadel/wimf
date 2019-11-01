@@ -18,8 +18,11 @@ namespace WIMF
             InitializeComponent();
         }
 
-        public void TestMethod() {
-        //This is a dummy!
+        public int count = 0;
+        public void Button_Clicked(object sender, System.EventArgs e) {
+
+            count++;
+            ((Button)sender).Text = $"You clicked {count} times. Congratulations!";
         }
     }
 }
